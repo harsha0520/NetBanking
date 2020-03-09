@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Check Balance</title>
+</head>
+<body>
+   
+   <form action="http://localhost:8080/NetBanking/check" method="post">  
+   
+   <h2 align="center"> Check your Balance </h2>
+   <br>
+   <table align="center" border="1" cellpading="10" bgcolor="#CCCCCC">
+   <tr>
+   <td> username :</td><td><input type="text" name ="username" required placeholder="username"></td>
+    </tr>
+    <tr>
+    <td> accno : </td><td><input type="text" name="accno" required placeholder="Enter accno"></td>
+    <tr>
+    <td>Check Balance :</td>
+   <td> <select>
+    <option value="select" name="r1">Select<option>
+    <option value="Current Balance" name="r1" size="30">Current Balance<option>
+    <option value="mini Statement" name="r1" size="30">mini statement<option>
+    </select></td>
+    </tr>
+    <tr>
+   <td> Submit </td><td><input type="submit" value="submit"></td>
+   </tr>
+   </table>
+   </form>
+
+</body>
+</html>
